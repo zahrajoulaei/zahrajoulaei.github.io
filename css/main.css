@@ -2503,6 +2503,39 @@ header .header-logo a {
 	overflow: hidden;
 }
 
+.bricks-wrapper-projects .item-wrap {
+	position: relative;
+	overflow: hidden;
+}
+
+.bricks-wrapper .item-wrap-projects:hover .overlay::before {
+	opacity: 1;
+	visibility: visible;
+}
+
+.bricks-wrapper .item-wrap-projects:hover .overlay::after {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+.bricks-wrapper .item-wrap-projects:hover .overlay img {
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.bricks-wrapper .item-wrap-projects:hover .item-text,
+.bricks-wrapper .item-wrap-projects:hover .details-link {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: translateX(0);
+	-ms-transform: translateX(0);
+	transform: translateX(0);
+}
+
 .bricks-wrapper .item-wrap .overlay {
 	cursor: zoom-in;
 }
